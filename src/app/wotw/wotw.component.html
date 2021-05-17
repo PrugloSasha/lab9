@@ -1,0 +1,8 @@
+<div>
+  <button *ngFor="let item of wotws" (click) = getinfo(item.name)>{{item.name}}</button>
+</div>
+<div>
+  <p>{{name}}</p>
+  <p >{{about}}</p>
+  <img id="img" [attr.src]="imgpath" alt="" width="300px" height="300px">
+</div>
